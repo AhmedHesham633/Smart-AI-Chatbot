@@ -21,7 +21,7 @@ chat loop (`main.py`) and a Streamlit web UI (`app.py`).
 - Terminal UI and a Streamlit web UI, both built on the same core
   chatbot logic
 
-## 📸 Streamlit App
+## Streamlit App
 
 ![Smart AI Chatbot - Streamlit UI](screenshoot_streamlit.png)
 
