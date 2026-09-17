@@ -196,7 +196,7 @@ automated `pytest` run.
 - No authentication/user-accounts layer on the Streamlit UI; it is a
   single-session demo app.
 
-## 👥 Team Members & Contributions
+## Team Members & Contributions
 
 ### 1. Ahmed Hesham — AI API Integration & Security
 
