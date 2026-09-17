@@ -21,6 +21,10 @@ chat loop (`main.py`) and a Streamlit web UI (`app.py`).
 - Terminal UI and a Streamlit web UI, both built on the same core
   chatbot logic
 
+## 📸 Streamlit App
+
+![Smart AI Chatbot - Streamlit UI](screenshoot_streamlit.png)
+
 ## Architecture
 
 ```
@@ -66,6 +70,7 @@ smart-ai-chatbot/
 ├── app.py               # Streamlit web UI
 ├── main.py               # Terminal entry point
 ├── requirements.txt
+├── screenshoot_streamlit.png 
 ├── .env.example
 ├── .gitignore
 ├── test_plan.md
@@ -190,3 +195,44 @@ automated `pytest` run.
   any other API failure.
 - No authentication/user-accounts layer on the Streamlit UI; it is a
   single-session demo app.
+
+## 👥 Team Members & Contributions
+
+### 1. Ahmed Hesham — AI API Integration & Security
+
+- Integrated the chatbot with the selected AI provider API.
+- Implemented secure API key loading using environment variables.
+- Configured `.env`, `.gitignore`, and `requirements.txt`.
+- Implemented API request handling and response parsing.
+- Added error handling for API, network, and authentication failures.
+- Tested the API connection and provider responses.
+
+### 2. Tukka Mohamed — Prompt Engineering & Conversation History
+
+- Designed the chatbot's system prompt and prompt structure.
+- Implemented prompt templates and message builders.
+- Developed the conversation history structure.
+- Integrated previous conversation context into follow-up requests.
+- Implemented history updates after successful interactions.
+- Tested multi-turn conversations and context handling.
+
+### 3. Mariam Mohamed — Chatbot Logic, User Interaction & Streamlit UI
+
+- Developed the main chatbot conversation loop.
+- Implemented user input handling and validation.
+- Added empty-input validation and exit commands.
+- Connected the prompt/history module with the API client.
+- Implemented response display and multi-turn interaction flow.
+- Developed the Streamlit user interface for the chatbot.
+- Integrated the chatbot backend with the Streamlit interface.
+- Tested the complete user interaction flow through the UI.
+
+### 4. Ghada Mohamed — Testing, Integration & Documentation
+
+- Performed end-to-end testing of the chatbot.
+- Tested normal questions, follow-up questions, empty inputs, and exit commands.
+- Tested API errors and invalid credentials.
+- Verified that `.env` and API credentials are properly secured.
+- Performed final integration and code cleanup.
+- Created and maintained the `README.md` documentation.
+- Documented project setup, environment variables, usage, and examples.
